@@ -2,7 +2,7 @@
   <v-app>
     <v-toolbar max-height="60" color="primary">
       <router-link to="/">
-        <v-toolbar-title class="font">나의 다이어리</v-toolbar-title>
+        <v-toolbar-title class="font">나의 다이어리1</v-toolbar-title>
       </router-link>
       <v-spacer></v-spacer>
       <div v-if="$cookies.get('user_name')">
